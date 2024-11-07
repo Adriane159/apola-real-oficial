@@ -1,0 +1,26 @@
+.main-favorite-wrapper {
+    display: grid;
+    grid-template-columns: 200px auto;
+    height: 100%;
+}
+
+.favorite-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 0 30px;
+}
+
+.favorite-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.favorite-card-image-container {
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #fafafa;
+}
